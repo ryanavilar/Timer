@@ -13,7 +13,7 @@
 		var weeks = (Math.round(Math.round((Date.parse(todaystring)-Date.parse(paststring))/(24*60*60*1000))*1/7))
 		var difference=(Math.round((Date.parse(todaystring)-Date.parse(paststring))/(24*60*60*1000))*1-(weeks*2))
 		document.write("<div id='daysregister'> "+
-			"<a class='days' href='#'>" +difference+ "</a>"+"<br>"+ 
+			"<a class='days' href='tiny.cc/cekTPG'>" +difference+ "</a>"+"<br>"+ 
 			"It\'s been " +difference+ " business days since we registered to TPG </div>")
 		document.write("<title> TPG - "+difference+" business days </title>")
 	}
